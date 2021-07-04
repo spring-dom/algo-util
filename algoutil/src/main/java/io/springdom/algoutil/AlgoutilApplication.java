@@ -1,0 +1,13 @@
+package io.springdom.algoutil;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AlgoutilApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AlgoutilApplication.class, args);
+	}
+
+}
