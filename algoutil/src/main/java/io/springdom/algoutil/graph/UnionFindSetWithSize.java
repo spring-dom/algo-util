@@ -26,6 +26,8 @@ public class UnionFindSetWithSize {
     public void union(int x, int y) {
         int xParent = find(x);
         int yParent = find(y);
+        if (xParent == yParent)
+            return;
         // yParent having a greater size of the tree.
         if (size[yParent] > size[xParent]) {
             parent[xParent] = yParent;
